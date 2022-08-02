@@ -38,7 +38,7 @@ defmodule Pushover.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:tesla, "~> 1.3.1"},
+      {:tesla, "~> 1.4"},
       {:google_gax, "~> 0.4"},
 
       # Docs
