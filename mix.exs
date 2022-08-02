@@ -39,7 +39,7 @@ defmodule Pushover.MixProject do
   defp deps do
     [
       {:tesla, "~> 1.3.1"},
-      {:google_gax, "~> 0.3.1"},
+      {:google_gax, "~> 0.4"},
 
       # Docs
       {:ex_doc, "~> 0.21.3", only: :dev, runtime: false}
