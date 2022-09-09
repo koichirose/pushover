@@ -20,15 +20,15 @@ defmodule Pushover.Model.Message do
 
   @type t :: %__MODULE__{
     :data => String.t(),
-    :device => String.t(),
-    :title => String.t(),
-    :url => String.t(),
-    :url_title => String.t(),
-    :priority => integer(),
-    :retry => integer(),
-    :expire => integer(),
-    :sound => String.t(),
-    :timestamp => integer(),
+    :device => String.t() | nil,
+    :title => String.t() | nil,
+    :url => String.t() | nil,
+    :url_title => String.t() | nil,
+    :priority => integer() | nil,
+    :retry => integer() | nil,
+    :expire => integer() | nil,
+    :sound => String.t() | nil,
+    :timestamp => integer() | nil,
   }
 
   field(:data)
